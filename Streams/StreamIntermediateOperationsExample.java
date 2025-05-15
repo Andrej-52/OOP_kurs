@@ -1,6 +1,5 @@
 package Streams;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
@@ -29,7 +28,7 @@ public class StreamIntermediateOperationsExample {
             .distinct()                          // Fjern duplikate elementer
             .sorted()                            // Sorter elementene
             .collect(Collectors.toList());          // Samle det endelige resultatet i en liste
-            // .toList();
+            // .toList();                           // kan brukes i stedt for .collect(Collectors.toList())
 
         // Skriv ut mellomresultatene
         System.out.println("Mellomresultater:");
